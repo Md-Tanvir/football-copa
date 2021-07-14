@@ -245,16 +245,16 @@ header:hover .hero-area-img img {
 }
 .fixture-details {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 27px;
 }
-
 .fixture-content {
   display: flex;
   justify-content: space-between;
   background-color: #2d25a0;
   padding: 15px;
+  box-shadow: 0px 0px 20px grey;
 }
 .fixture-content h4 {
   margin: 0 5px;
