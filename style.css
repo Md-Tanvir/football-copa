@@ -89,9 +89,14 @@ header {
 }
 .highlight-content h2 {
   font-size: 48px;
+  margin-bottom: 8px;
+  line-height: 60px;
 }
 .highlight-content p {
   margin-bottom: 34px;
+  color: #6c6c6c;
+  width: 80%;
+  line-height: 28px;
 }
 .highlight-content a {
   text-decoration: none;
@@ -113,6 +118,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-top: 165px;
+  margin-bottom: 63px;
 }
 .footer-logo {
   margin-bottom: 20px;
@@ -129,7 +135,13 @@ footer {
   background: #0b0d170e;
   padding: 14px;
   font-size: 18px;
-  border-radius: 50%;
+  border-radius: 50%; 
+}
+.social-media-link a{
+    margin-right: 14px;
+}
+.social-media-link a:last-child{
+    margin-right: 0px;
 }
 .social-media-link i:hover {
   color: white;
