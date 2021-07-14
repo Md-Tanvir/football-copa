@@ -1,4 +1,7 @@
-/* Common CSS */
+/* =====================
+ Common CSS 
+=====================*/
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +13,9 @@
   width: 1050px;
 }
 
-/* Header Section CSS */
+/* =====================
+      Header Section CSS 
+=====================*/
 
 header {
   display: flex;
@@ -86,7 +91,9 @@ header:hover .hero-area-img img {
   }
 }
 
-/* Player details section CSS */
+/* =====================
+      Player details section CSS 
+=====================*/
 
 .player-details {
   margin-top: 70px;
@@ -124,7 +131,9 @@ header:hover .hero-area-img img {
   font-size: 16px;
 }
 
-/* highlight area CSS */
+/* =====================
+      Highlight area CSS 
+ =====================*/
 
 .highlight-area {
   margin-top: 165px;
@@ -169,7 +178,10 @@ header:hover .hero-area-img img {
   width: 100%;
 }
 
-/* Latest News CSS */
+/* =====================
+      Latest News CSS 
+=====================*/
+
 .latest-news {
   margin-top: 100px;
 }
@@ -219,7 +231,47 @@ header:hover .hero-area-img img {
   padding: 8px 22px;
 }
 
-/* Footer section CSS */
+/*====================
+ Fixture section css 
+ =====================*/
+
+.fixture{
+  margin-top: 100px;
+}
+.fixture h2{
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #2d25a0;
+}
+.fixture-details {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 27px;
+}
+
+.fixture-content {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d25a0;
+  padding: 15px;
+}
+.fixture-content h4 {
+  margin: 0 5px;
+  color: white;
+}
+.team-info h3 {
+  color: white;
+}
+.team-img img {
+  width: 100px;
+  height: 60px;
+}
+
+/* =====================
+ Footer section CSS 
+ =====================*/
+
 footer {
   display: flex;
   flex-direction: column;
@@ -264,39 +316,21 @@ footer {
   font-weight: 500px;
 }
 
-.fixture {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 30px;
-}
+/* =====================
+    Responsive CSS / Media Query 
+=====================*/
 
-.fixture-content {
-  display: flex;
-  justify-content: space-between;
-  background-color: #2d25a0;
-  padding: 15px;
-}
-.fixture-content h4 {
-  margin: 0 5px;
-  color: white;
-}
-.team-info h3 {
-  color: white;
-}
-.team-img img {
-  width: 100px;
-  height: 60px;
-}
-
-/* Responsive CSS / Media Query */
-
-/* Common media */
+/* Common Responsive CSS */
 @media (max-width: 1050px) {
   .container {
     width: 90%;
   }
 }
-/* tablet mode  */
+
+/* =====================
+      tablet mode  
+=====================*/
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .container {
     width: 85%;
@@ -344,12 +378,15 @@ footer {
   .latest-news-text h2 {
     font-size: 20px;
   }
-  .fixture {
+  .fixture-details {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* mobile device */
+/* =====================
+      mobile device 
+=====================*/
+
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 85%;
@@ -390,7 +427,6 @@ footer {
     align-items: center;
     margin-top: 100px;
   }
-
   .highlight-content,
   .highlight-img {
     margin-top: 0px;
@@ -418,6 +454,9 @@ footer {
   .latest-news-text h2 {
     font-size: 20px;
   }
+  .fixture-details {
+    grid-template-columns: repeat(1, 1fr);
+  }
   footer {
     margin-top: 100px;
   }
@@ -444,7 +483,6 @@ footer {
       left: 0;
     }
   }
-
   @keyframes slide-down {
     0% {
       position: relative;
@@ -461,7 +499,10 @@ footer {
   }
 }
 
-/* for small device */
+/* =====================
+      for small device 
+=====================*/
+
 @media only screen and (min-width: 200px) and (max-width: 479px) {
   .container {
     width: 90%;
@@ -472,9 +513,7 @@ footer {
   }
   .hero-area-text {
     width: 90%;
-    /* animation: none; */
   }
-
   .hero-area-text h1 {
     margin-top: 90px;
     margin-left: 0px;
@@ -492,7 +531,6 @@ footer {
   .hero-area-img img {
     width: 100%;
   }
-
   .player-content {
     grid-template-columns: repeat(1, 1fr);
     justify-items: center;
@@ -505,7 +543,6 @@ footer {
     align-items: center;
     margin-top: 100px;
   }
-
   .highlight-content,
   .highlight-img {
     margin-top: 0px;
@@ -533,6 +570,9 @@ footer {
   .latest-news-text h2 {
     font-size: 20px;
   }
+  .fixture-details {
+    grid-template-columns: repeat(1, 1fr);
+  }
   footer {
     margin-top: 100px;
   }
@@ -558,7 +598,6 @@ footer {
       left: 0;
     }
   }
-
   @keyframes slide-down {
     0% {
       position: relative;
