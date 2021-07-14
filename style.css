@@ -1,78 +1,142 @@
 /* Common CSS */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    outline: none;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  outline: none;
 }
-.container{
-    margin: 0 auto;
-    width: 1050px;
+.container {
+  margin: 0 auto;
+  width: 1050px;
 }
 
 /* Header Section CSS */
 
-header{
-    display: flex;
-    background-color: #2D25A0;
+header {
+  display: flex;
+  background-color: #2d25a0;
 }
-.hero-area-text{
-    width: 50%;
+.hero-area-text {
+  width: 50%;
 }
-.hero-area-text h1{
-    margin-top: 207px;
-    margin-left: 156px;
-    color: white;
-    font-size: 64px;
-    margin-bottom: 27px;
+.hero-area-text h1 {
+  margin-top: 207px;
+  margin-left: 156px;
+  color: white;
+  font-size: 64px;
+  margin-bottom: 37px;
 }
-.hero-area-text a{
-    margin-left: 156px;
-    text-decoration: none;
-    background-color: #E02C6D;
-    color: white;
-    padding: 10px 24px;
+.hero-area-text a {
+  margin-left: 156px;
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
 }
-.hero-area-text a i{
-    margin-left: 8px;
+.hero-area-text a i {
+  margin-left: 8px;
 }
-.hero-area-img{
-    width: 50%;
-    padding-top: 153px;
-    padding-bottom: 86px;
+.hero-area-img {
+  width: 50%;
+  padding-top: 153px;
+  padding-bottom: 86px;
 }
-.hero-area-img img{
-    width: 80%;
+.hero-area-img img {
+  width: 80%;
 }
 
 /* Player details section CSS */
 
-.player-details{
-    margin-top: 70px;
+.player-details {
+  margin-top: 70px;
 }
-.player-content{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 27px;
-    grid-column-gap: 30px;
+.player-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 27px;
+  grid-column-gap: 30px;
 }
-.player-box{
-    padding: 15px 15px 33px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+.player-box {
+  padding: 15px 15px 33px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player-img{
-    margin-bottom: 16px;
+.player-img {
+  margin-bottom: 16px;
 }
-.player-img img{
-    width: 100%;
+.player-img img {
+  width: 100%;
 }
-.player-data h2{
-    margin-bottom: 10px;
-    font-size: 28px;
-    color: #18191F;
+.player-data h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  color: #18191f;
 }
-.player-data p{
-    color: #6C6C6C;
-    line-height: 26px;
-    font-size: 16px;
+.player-data p {
+  color: #6c6c6c;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+/* highlight area CSS */
+
+.highlight-area {
+  margin-top: 165px;
+  display: flex;
+}
+.highlight-content {
+  width: 50%;
+  margin-top: 59px;
+}
+.highlight-content h2 {
+  font-size: 48px;
+}
+.highlight-content p {
+  margin-bottom: 34px;
+}
+.highlight-content a {
+  text-decoration: none;
+  background-color: #e02c6d;
+  color: white;
+  padding: 10px 24px;
+}
+.highlight-img {
+  width: 50%;
+}
+.highlight-img img {
+  width: 100%;
+}
+
+/* Footer section CSS */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 165px;
+}
+.footer-logo {
+  margin-bottom: 20px;
+}
+.footer-logo img {
+  width: 483.87px;
+  height: 110px;
+}
+.social-media-link {
+  margin-bottom: 20px;
+}
+.social-media-link i {
+  color: #969bab;
+  background: #0b0d170e;
+  padding: 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+.social-media-link i:hover {
+  color: white;
+  background-color: #2d25a0;
+  cursor: pointer;
+}
+.copyright p {
+  font-size: 18px;
+  font-weight: 500px;
 }
